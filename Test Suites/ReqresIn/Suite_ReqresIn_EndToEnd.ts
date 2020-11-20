@@ -38,4 +38,31 @@
          <variableId>d3a945bb-268d-4881-b880-5e5fbec517e4</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>eaea7987-49ce-4460-a2b6-a4be730fb8c1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ReqresIn/TC_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e377c1b3-211a-4020-88fe-d09fef5ea2f0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Datafile_ReqresInAPI</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e377c1b3-211a-4020-88fe-d09fef5ea2f0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>4f59d03e-e0e1-436d-95ce-d578954c03a1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e377c1b3-211a-4020-88fe-d09fef5ea2f0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>0b15f618-f9a5-4729-93df-800a053afb3d</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
