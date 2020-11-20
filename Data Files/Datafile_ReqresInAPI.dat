@@ -8,24 +8,45 @@
    <dataFileGUID>2f7baf18-48bd-4379-ba6b-2f9123241e4e</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>eve.holt%40reqres.in null invalid</data>
-   <data>null null invalid</data>
-   <data>null pistol invalid</data>
-   <data>eve.holt%40reqres.in pistol valid</data>
+   <data>eve.holt%40reqres.in null invalid null null null null</data>
+   <data>null null invalid null null null null</data>
+   <data>null pistol invalid null null null null</data>
+   <data>eve.holt%40reqres.in pistol valid null null null null</data>
+   <data>michael.lawson%40reqres.in null null 7 Michael Lawson https%3A%2F%2Fs3.amazonaws.com%2Fuifaces%2Ffaces%2Ftwitter%2Ffollettkyle%2F128.jpg</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>email</name>
-      <size>4</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>4</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>note</name>
-      <size>4</size>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>id</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>first_name</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>last_name</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>avatar</name>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

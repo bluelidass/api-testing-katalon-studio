@@ -14,14 +14,14 @@
    <testCaseLink>
       <guid>d828f819-6cb8-43b9-bf9a-db319a47c32d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ReqresIn/TC_Register</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>40bcbecf-9f0b-4135-b950-52949440a6a8</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-4</value>
          </iterationEntity>
          <testDataId>Data Files/Datafile_ReqresInAPI</testDataId>
       </testDataLink>
@@ -41,14 +41,14 @@
    <testCaseLink>
       <guid>eaea7987-49ce-4460-a2b6-a4be730fb8c1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ReqresIn/TC_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e377c1b3-211a-4020-88fe-d09fef5ea2f0</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-4</value>
          </iterationEntity>
          <testDataId>Data Files/Datafile_ReqresInAPI</testDataId>
       </testDataLink>
@@ -63,6 +63,51 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>0b15f618-f9a5-4729-93df-800a053afb3d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c03cd963-619b-4292-aab9-af8e844b9d1e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ReqresIn/TC_CheckUserData</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>98900365-f43f-44ab-b031-755309890ac1</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>5-5</value>
+         </iterationEntity>
+         <testDataId>Data Files/Datafile_ReqresInAPI</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>98900365-f43f-44ab-b031-755309890ac1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id</value>
+         <variableId>5ec44e5a-cef7-4658-b37f-0bf207d0af46</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>98900365-f43f-44ab-b031-755309890ac1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>first_name</value>
+         <variableId>7ef4bda1-9ee2-4c14-aa6b-8404fd679528</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>98900365-f43f-44ab-b031-755309890ac1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>last_name</value>
+         <variableId>c6f95407-cf3e-43c2-8cf1-0dba327bf983</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>98900365-f43f-44ab-b031-755309890ac1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>62ef1064-297f-4890-9d86-0dc5fd85121f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>98900365-f43f-44ab-b031-755309890ac1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>avatar</value>
+         <variableId>00e75eaf-5f68-4379-9466-52555a7e00b6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

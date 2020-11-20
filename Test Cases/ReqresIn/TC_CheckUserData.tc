@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CheckUserData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b79f421-40fa-4d48-b031-e3e6700c92e1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ec44e5a-cef7-4658-b37f-0bf207d0af46</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7ef4bda1-9ee2-4c14-aa6b-8404fd679528</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c6f95407-cf3e-43c2-8cf1-0dba327bf983</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62ef1064-297f-4890-9d86-0dc5fd85121f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>00e75eaf-5f68-4379-9466-52555a7e00b6</id>
+      <masked>false</masked>
+      <name>avatar</name>
+   </variable>
+</TestCaseEntity>
