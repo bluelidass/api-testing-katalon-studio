@@ -15,16 +15,19 @@ if ((email != '') && (password == '')) {
     assert errorMessage == 'Missing password'
 
     WS.verifyResponseStatusCode(response, 400)
+    
 } else if ((email == '') && (password == '')) {
     'Verify if an user cannot register with an empty email and a password.'
     assert errorMessage == 'Missing email or username'
 
     WS.verifyResponseStatusCode(response, 400)
+    
 } else if ((email == '') && (password != '')) {
     'Verify the register for both, when the input is empty.'
     assert errorMessage == 'Missing email or username'
 
     WS.verifyResponseStatusCode(response, 400)
+    
 } else {
     'Register - Successful.'
     assert errorMessage == null
