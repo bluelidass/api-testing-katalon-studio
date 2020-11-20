@@ -8,6 +8,8 @@ def jsonSlurper = new JsonSlurper()
 
 def object = jsonSlurper.parseText(response.getResponseBodyContent())
 
+errorMessage = object.error
+
 if ((email != '') && (password == '')) {
     'Verify if an user cannot register with a valid email and an empty password.'
     assert errorMessage == 'Missing password'
